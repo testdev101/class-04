@@ -1,0 +1,146 @@
+.heading {
+	background-color: #FF6F91;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 1.5rem;
+	color: white;
+	text-shadow: 0px 5px 3px #076d51;
+}
+
+p {
+	border-width: 10px; 
+	padding: 15px;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.dotted {
+	border-style: dotted;
+	border-top-color: #FF6F91;
+	border-right-color: #FF9671; 
+	border-bottom-color: #FFC75F; 
+	border-left-color: #F9F871; 
+}
+.dashed {
+	border-style: dashed;
+	border-top-color: #FF6F91;
+	border-right-color: #FF9671; 
+	border-bottom-color: #FFC75F; 
+	border-left-color: #F9F871; 
+}
+.solid {
+	border-style: solid;
+	border-top-color: #FF6F91;
+	border-right-color: #FF9671; 
+	border-bottom-color: #FFC75F; 
+	border-left-color: #F9F871;
+	border-width: 10px 20px 30px 40px; 
+}
+.double {
+	border-style: double;
+	border-top-color: #FF6F91;
+	border-right-color: #FF9671; 
+	border-bottom-color: #FFC75F; 
+	border-left-color: #F9F871; 
+	border-radius: 10px;
+}
+.groove {
+	border-style: groove;
+	border-top-color: #FF6F91;
+	border-right-color: #FF9671; 
+	border-bottom-color: #FFC75F; 
+	border-left-color: #F9F871; 
+}
+.ridge {
+	border-style: ridge;
+	border-top-color: #FF6F91;
+	border-right-color: #FF9671; 
+	border-bottom-color: #FFC75F; 
+	border-left-color: #F9F871; 
+}
+.inset {
+	border-style: inset;
+	border-top-color: #FF6F91;
+	border-right-color: #FF9671; 
+	border-bottom-color: #FFC75F; 
+	border-left-color: #F9F871; 
+}
+.outset {
+	border-style: outset;
+	border-top-color: #FF6F91;
+	border-right-color: #FF9671; 
+	border-bottom-color: #FFC75F; 
+	border-left-color: #F9F871; 
+}
+.none {
+	border-style: none;
+	border-top-color: #FF6F91;
+	border-right-color: #FF9671; 
+	border-bottom-color: #FFC75F; 
+	border-left-color: #F9F871; 
+}
+.hidden {
+	border-style: hidden;
+	border-top-color: #FF6F91;
+	border-right-color: #FF9671; 
+	border-bottom-color: #FFC75F; 
+	border-left-color: #F9F871; 
+}
+.mix {
+	border-top-style: solid;
+	border-top-color: #FF6F91;
+	border-right-style: dashed;
+	border-right-color: #FF9671;
+	border-bottom-style: dotted;
+	border-bottom-color: #FFC75F; 
+	border-left-style: double;
+	border-left-color: #F9F871;
+}
+
+.margin {
+	width: 600px;
+	border: 20px solid #845EC2;
+	margin: 0 auto;
+}
+
+.padding {
+	padding: 80px 30px;
+	background-color: #FF8066;
+}
+
+.box {
+	border: 20px groove #E31294;
+	background-color: #2EBEB1;
+	color: white;
+}
+
+.text-left {
+	text-align: left;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.text-center {
+	text-align: center;
+	text-decoration: line-through;
+	text-transform: capitalize;
+}
+
+.text-right {
+	text-align: right;
+	text-decoration: overline;
+	text-transform: lowercase;
+}
+
+.p1 {
+	text-align: justify;
+	text-indent: 100px;
+	letter-spacing: 5px;
+	line-height: 2;
+	word-spacing: 5px;
+}
+
+.outline {
+	border: 10px solid #FF005C;
+	outline: 5px solid #006B62;
+}
